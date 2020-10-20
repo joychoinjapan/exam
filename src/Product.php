@@ -1,7 +1,6 @@
 <?php
-
 namespace App;
-
+use App\Helper\ProductValidator;
 class Product
 {
     private $title;

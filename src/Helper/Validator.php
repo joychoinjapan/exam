@@ -38,7 +38,7 @@ class Validator
         }
 
         if(strlen($val)>$this->condition['title'][1]){
-            $this->addError('title','商品の最大文字列数'.$this->$this->condition['title'][1].'以下に指定してください');
+            $this->addError('title','商品の最大文字列数'.$this->condition['title'][1].'以下に指定してください');
         }
     }
 
